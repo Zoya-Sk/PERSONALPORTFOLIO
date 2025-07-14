@@ -1,77 +1,54 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const navLinks = [
-    { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Skills", path: "/skills" },
-    { name: "Projects", path: "/projects" },
-    { name: "Mini Projects", path: "/miniprojects" },
-    { name: "Education", path: "/education" },
-    { name: "Contact", path: "/contact" },
-  ];
-
   return (
-    <nav className="bg-white shadow-md sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-        <Link to="/" className="text-xl font-bold text-indigo-600">
-          Zoya <span className="text-gray-800">Shaikh</span>
+    <nav className="bg-white shadow-md py-4 px-6 fixed top-0 w-full z-50">
+      <div className="container mx-auto flex justify-between items-center">
+        {/* Logo or Name */}
+        <Link to="/" className="lg:text-3xl text-xl italic font-bold text-indigo-600">
+          ZOYA SHAIKH
         </Link>
 
-        {/* Desktop links */}
-        <div className="hidden md:flex items-center space-x-6">
-          {navLinks.map((link) => (
-            <Link
-              key={link.name}
-              to={link.path}
-              className="text-gray-700 hover:text-indigo-600 transition-all duration-300"
-            >
-              {link.name}
+        {/* Nav Links */}
+        <ul className="flex space-x-6 text-gray-700 font-medium">
+          <li>
+            <Link to="/" className="hover:text-indigo-600 transition">
+              Home
             </Link>
-          ))}
-          <a
-            href="/zoyaResume.pdf"
-            download
-            className="bg-indigo-600 text-white px-3 py-1 rounded hover:bg-indigo-700 transition-all duration-300"
-          >
-            Download Resume
-          </a>
-        </div>
-
-        {/* Hamburger Icon (Mobile) */}
-        <div className="md:hidden">
-          <button onClick={() => setIsOpen(!isOpen)}>
-            <span className="text-2xl">&#9776;</span>
-          </button>
-        </div>
+          </li>
+          <li>
+            <Link to="/about" className="hover:text-indigo-600 transition">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="/projects" className="hover:text-indigo-600 transition">
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link to="/skills" className="hover:text-indigo-600 transition">
+              Skills
+            </Link>
+          </li>
+          
+          <li>
+            <Link to="/miniprojects" className="hover:text-indigo-600 transition">
+              Mini Projects
+            </Link>
+          </li>
+          <li>
+            <Link to="/education" className="hover:text-indigo-600 transition">
+              Education
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" className="hover:text-indigo-600 transition">
+              Contact
+            </Link>
+          </li>
+        </ul>
       </div>
-
-      {/* Mobile dropdown */}
-      {isOpen && (
-        <div className="md:hidden px-4 pb-4 space-y-3">
-          {navLinks.map((link) => (
-            <Link
-              key={link.name}
-              to={link.path}
-              className="block text-gray-700 hover:text-indigo-600 transition-all"
-              onClick={() => setIsOpen(false)}
-            >
-              {link.name}
-            </Link>
-          ))}
-          <a
-            href="/resume.pdf"
-            download
-            className="block text-indigo-600 font-medium hover:underline"
-            onClick={() => setIsOpen(false)}
-          >
-            Download Resume
-          </a>
-        </div>
-      )}
     </nav>
   );
 }
