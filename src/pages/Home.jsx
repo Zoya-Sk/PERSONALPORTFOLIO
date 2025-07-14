@@ -18,7 +18,7 @@ export default function Home() {
 
         <div className="flex flex-col sm:flex-row gap-4 pt-2">
           <a
-            href="/resume.pdf"
+            href="/zoyaResume.pdf"
             download
             className="bg-indigo-600 text-white px-6 py-2 rounded shadow hover:bg-indigo-700 transition"
           >
