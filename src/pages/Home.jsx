@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-50 to-purple-100 text-gray-800 px-4">
       <div className="text-left max-w-2xl w-full space-y-6">
-        <h2 className="text-md text-gray-600">Hi, I'm</h2>
+        <h2 className="text-md text-gray-600">Hi, I'm 👋</h2>
 
         <h1 className="text-4xl sm:text-5xl font-bold text-indigo-700">
           Zoya Shaikh
