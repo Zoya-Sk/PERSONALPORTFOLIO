@@ -17,7 +17,7 @@ export default function Home() {
 
           <div className="flex justify-center space-x-4 pt-4">
             <a
-              href="/zoyaResumeExp.pdf"
+              href="/Zoya-ResumeExp.pdf"
               download
               className="bg-indigo-600 text-white py-2 px-5 rounded hover:bg-indigo-700 transition"
             >

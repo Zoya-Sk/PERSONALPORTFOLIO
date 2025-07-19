@@ -11,6 +11,10 @@ export default function About() {
         </p>
 
         <p className="text-base sm:text-lg leading-relaxed">
+           Currently, I’m working as a MERN Stack Teaching Assistant Intern at a stealth EdTech platform, helping learners debug and understand core web development concepts.
+        </p>
+
+        <p className="text-base sm:text-lg leading-relaxed">
           During my studies, I’ve worked on multiple projects that strengthened my coding skills — including building responsive websites and solving real-world challenges with efficient algorithms. I’m always eager to learn new technologies and tackle complex problems.
         </p>
 
