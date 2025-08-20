@@ -23,14 +23,14 @@ export default function Projects() {
               </p>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com/Zoya-Sk"
+                  href="https://github.com/Zoya-Sk/PERSONALPORTFOLIO"
                   target="_blank"
                   className="text-indigo-600 hover:underline"
                 >
                   GitHub
                 </a>
                 <a
-                  href="https://stayease.netlify.app"
+                  href="https://stayease-full-stack-mern-accommodation.onrender.com/"
                   target="_blank"
                   className="text-indigo-600 hover:underline"
                 >
@@ -57,11 +57,18 @@ export default function Projects() {
               </p>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com/Zoya-Sk"
+                  href="https://github.com/Zoya-Sk/MINI-WHATSAPP"
                   target="_blank"
                   className="text-indigo-600 hover:underline"
                 >
                   GitHub
+                </a>
+                <a
+                  href="https://stayease-full-stack-mern-accommodation.onrender.com/"
+                  target="_blank"
+                  className="text-indigo-600 hover:underline"
+                >
+                  Live Demo <br />(Coming Soon..)
                 </a>
               </div>
             </div>
