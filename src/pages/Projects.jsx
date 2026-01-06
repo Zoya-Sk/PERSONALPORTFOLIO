@@ -23,7 +23,7 @@ export default function Projects() {
               </p>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com/Zoya-Sk/PERSONALPORTFOLIO"
+                  href="https://github.com/Zoya-Sk/StayEase---Full-Stack-MERN-Accommodation-Platform.git"
                   target="_blank"
                   className="text-indigo-600 hover:underline"
                 >
