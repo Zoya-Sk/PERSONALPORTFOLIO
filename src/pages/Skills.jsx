@@ -7,13 +7,18 @@ export default function Skills() {
     "Node.js",
     "Express.js",
     "MongoDB",
-    "SQL",
+    "Mongoose",
+    "JWT",
+    "bcrypt",
+    "Socket.io",
+    "Groq API / AI",
+    "Nodemailer",
+    "Cloudinary",
+    "Axios",
+    "REST APIs",
     "Tailwind CSS",
     "Git & GitHub",
-    "REST APIs",
-    "EJS",
-    "Bootstrap",
-    "Java : DSA"
+    "Vite"
   ];
 
   return (

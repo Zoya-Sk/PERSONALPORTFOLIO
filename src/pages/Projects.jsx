@@ -6,7 +6,50 @@ export default function Projects() {
         <p className="text-gray-600">Here are some of my featured projects</p>
 
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
-          {/* Project 1 */}
+          {/* Project 1 - SmartX */}
+          <div className="overflow-hidden rounded-lg bg-gray-50 shadow-md">
+            <img
+              src="/smartx-cover.png"
+              alt="SmartX AI Marketplace"
+              className="h-48 w-full object-cover"
+            />
+            <div className="space-y-3 p-5 text-left">
+              <h3 className="text-2xl font-semibold text-indigo-700">
+                SmartX – AI Marketplace
+              </h3>
+              <p>
+                AI-powered local marketplace for buying/selling second-hand goods.
+                Features include Zara AI chatbot, fair price checker, real‑time chat,
+                wishlist, OTP verification, and AI title/description enhancer.
+                Built with MERN stack + Socket.io + Groq API (Llama 3.3).
+              </p>
+              <div className="flex gap-4 flex-wrap">
+                <a
+                  href="https://github.com/Zoya-Sk/SmartX-FrontEnd"
+                  target="_blank"
+                  className="text-indigo-600 hover:underline"
+                >
+                  Frontend Repo
+                </a>
+                <a
+                  href="https://github.com/Zoya-Sk/SmartX-BackEnd"
+                  target="_blank"
+                  className="text-indigo-600 hover:underline"
+                >
+                  Backend Repo
+                </a>
+                <a
+                  href="https://smart-x-front-end.vercel.app"
+                  target="_blank"
+                  className="text-indigo-600 hover:underline"
+                >
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Project 2 - Stayease*/}
           <div className="overflow-hidden rounded-lg bg-gray-50 shadow-md">
             <img
               src="/airbnb.png"
@@ -40,7 +83,7 @@ export default function Projects() {
             </div>
           </div>
 
-          {/* Project 2 */}
+          {/* Project 3 - Whatsapp clone*/}
           <div className="overflow-hidden rounded-lg bg-gray-50 shadow-md">
             <img
               src="/whatsapp.webp"
@@ -73,6 +116,9 @@ export default function Projects() {
               </div>
             </div>
           </div>
+
+          
+
 
           {/* Add more projects below as needed */}
         </div>
