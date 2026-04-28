@@ -86,32 +86,31 @@ export default function Projects() {
           {/* Project 3 - Whatsapp clone*/}
           <div className="overflow-hidden rounded-lg bg-gray-50 shadow-md">
             <img
-              src="/whatsapp.webp"
+              src="/ripple-img.png"
               alt="Mini WhatsApp"
               className="h-48 w-full object-cover"
             />
             <div className="space-y-3 p-5 text-left">
               <h3 className="text-2xl font-semibold text-indigo-700">
-                Mini WhatsApp
+                Ripple — Real-Time Chat Application
               </h3>
               <p>
-                A basic real-time messaging app with user login, sender/receiver
-                support, and message timestamp using Express and MongoDB.
+                A modern, full-stack real-time chat application built with the MERN stack and Socket.io. Ripple lets you connect and chat with people instantly — with live typing indicators, online presence, and read receipts.
               </p>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com/Zoya-Sk/MINI-WHATSAPP"
+                  href="https://github.com/Zoya-Sk/Ripple-chat-App"
                   target="_blank"
                   className="text-indigo-600 hover:underline"
                 >
                   GitHub
                 </a>
                 <a
-                  href="https://stayease-full-stack-mern-accommodation.onrender.com/"
+                  href="https://ripple-chat-app-eight.vercel.app/"
                   target="_blank"
                   className="text-indigo-600 hover:underline"
                 >
-                  Live Demo <br />(Coming Soon..)
+                  Live Demo
                 </a>
               </div>
             </div>
